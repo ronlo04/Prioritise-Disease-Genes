@@ -37,7 +37,9 @@ IMPORTANT NOTES:
     - minor changes were made to the original file in order to let it run without error.  
 
    Here are the minor modifications being made on the bagging.py: 
+
         line 46   "from sklearn.utils.metaestimators import available_if"
+        
         line 744  "@available_if(check='base_estimator')"
 
 This project is based on some key researches. Here are the references of this project: 
