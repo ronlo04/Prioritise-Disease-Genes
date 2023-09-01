@@ -14,10 +14,13 @@ other library and environment, please refer to requirements.txt
 IMPORTANT NOTES:
 1. due to the storage limitation of Github, this repository does not include the below items:
     - ./data/embeddings/
+
         The node embeddings of dimension 128, 96, 64 that are generated with NO random seeds
     - ./data/ppi/
+        
         the binary files of the full ppi network graph
     - ./eval_models/
+        
         the trained models of bagging svm (namely model_svm_1, model_svm_2)
 
    if not using the dataset files under ./data/datasets, but to execute all the process from end to end, 
