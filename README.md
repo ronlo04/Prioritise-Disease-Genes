@@ -1,6 +1,10 @@
 # Prioritise-Disease-Genes
 Prioritise Disease Genes Through Machine Learning method
 
+Abstract:
+The identification and prioritisation of genes associated with diseases is crucial for drug and treatment development. However, the sheer number of human genes, coupled with vast data sources, makes this a challenging task. This project utilised Machine Learning (ML) algorithms to prioritise unstudied genes associated with a particular disease: Rheumatoid Arthritis (RA). RA, a chronic autoimmune disease impacting joints, is believed to have a genetic connection. Given the amount of labelled data available for RA, it served as the reference disease in this study. State-of-art node2vec model, which presents robust performance in prior studies, was leveraged in this project to encode genes relational features from the Protein-to-Protein Interaction (PPI) graph network. By employing the Positive-Unlabelled Learning (PU Learning) technique, classifiers were trained using the positive and unlabelled data. The results clearly demonstrate the ML methodology has significant capability in prioritising disease genes. The primary contributions of this project include providing an efficient tool for resource allocation in disease genes research, facilitating disease-gene clustering based on feature similarities, and offering a flexible software and tool adaptable to various diseases. In conclusion, the project combined the knowledge of computer science and bioscience, employing ML to efficiently prioritise genes linked to diseases. The adopted methodologies have proven effectiveness in handling large-scale, high-dimensional, noisy, and imbalanced biological data. Future endeavours can explore similarities of biological features and compare with other state-of-the-art methods, underscoring the project's adaptability and potential.
+
+
 Major library versions
 -	NetworkX 2.8.8
 -	node2Vec 0.4.6
